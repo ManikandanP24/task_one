@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(129, 1, 129) !important;
+}
+.section-1{
+    background-color: rgb(152, 70, 168);
+}
+.section-1 h1,p{
+    color: rgb(2, 2, 1);
+}
+.section-1{
+    padding: 20px;
+}
+.grid-system{
+    background-color: cornsilk;
+    color: rgb(80, 101, 223);
+}
+.bg{
+    padding: 15px;
+    border: 1px solid white;
+    background-color: rgb(224, 69, 204);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-2{
+    background-color: white;
+    padding-bottom: calc(var(--bs-gutter-x) * .5)
+
+}
+
+/* .form-main{margin: auto;} */
+
+

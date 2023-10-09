@@ -1,0 +1,118 @@
+.main{
+    background-color:#ff4c68;
+    padding-bottom: 0%;
+    text-align: center;
+    
+    
+}
+.d-flex{
+    display: flex !important;
+    justify-content: space-between !important;
+    color: aliceblue !important;
+}
+
+/* buttons */
+
+.btncolor{
+    background-color:#ff4c68;
+    border: white solid 2px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.Section-1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* iphone image rotation */
+
+
+@media (min-width: 992px) {
+    .rotate-image {
+        transform: rotate(25deg) !important;
+        margin-bottom: -8.5rem !important;
+    }
+}
+@media (min-width: 992px) {
+    .rotate-image {
+        transform: rotate(25deg) !important;
+    
+    }
+}
+
+/* features */
+
+
+#features{
+    background-color:white;
+    color:#ff4c68;
+    padding-top:20px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+   /* carousel */
+
+
+.carousel-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+  }
+
+
+  .carousel{
+    background-color:#ff4c68;
+    color:white;
+    align-content: center !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  
+}
+.carousel-control-next-icon {
+    height: 1rem;
+}
+.carousel-control-prev-icon{
+    height: 1rem;
+}
+ 
+    /* company img */
+    .company-img{
+       padding: 15px 15px 15px 15px ;
+        margin: 15px 15px 15px 15px;
+        background-color:#ff4c68;
+        color:white;
+    }
+
+    /* card */
+
+    .Section-3{
+        background-color:white;
+        text-align: center;
+        padding: 10% 10%  10% 10%;
+    }
+    .Section-4{
+        background-color:#ff4c68;
+        text-align: center;
+        padding: 5% 10%  10% 10%;
+    }
+   /* footer */
+
+   .footer{
+   background-color:white;
+   text-align: center;
+   padding: 5% 10%  10% 10%;
+   }
+
+.spanSpace{
+    padding: 2% 2%  2% 2%;
+
+}
